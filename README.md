@@ -13,12 +13,8 @@
 ![](Images/11-10-02.png)  
 
 ---
-
-<!--   
+ 
 ## \[{ \color{Fuchsia} Time-Frequency-Signal \;(Response) \quad Solution  }\] 
--->
-![](Images/11-30-01.png)    
-
  
 <!--     ##### \[ using \]   -->
 <!--      ![](Images/11-30-07.png)   --> 
@@ -85,22 +81,10 @@ y_h(t)
 \end{bmatrix}
 $$
 
-## 
-
-$$
-\begin{bmatrix}
-\dot{\ddot{y}}_h(t) \\\\  
-\ddot{y}_h(t) \\\\ 
-\dot{y}_h(t)  
-\end{bmatrix} = A \ast 
-\begin{bmatrix} 
-\ddot{y}_h(t)  \\\\ 
-\dot{y}_h(t)  \\\\ 
-y_h(t)  
-\end{bmatrix}
-$$
-
-##  
+###  
+<!--   
+## \[{ \color{Fuchsia} \begin{bmatrix} \dot{\ddot{y}}_h(t) \\\\ \ddot{y}_h(t) \\\\ \dot{y}_h(t) \end{bmatrix} = \color{Blue} A \ast \color{Brown} \begin{bmatrix} \ddot{y}_h(t) \\\\ \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} }\]   --> 
+![](Images/02-23-01.png)   
 
 $$ 即 \quad A = 
 \begin{bmatrix}
@@ -114,7 +98,12 @@ $$
 
 ###  $$A(t) \times Q(t) = Q(t) \times D(t) \quad  => \quad A(t) = Q(t) \times D(t) \times Q_i(t)$$  
 
-## \[{ \color{Red} \begin{bmatrix} \ddot{y}_h(t)  \\\\ \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} = Hexp(D, Q, t) \ast d }\]
+###  
+
+<!--      
+## \[{ \color{Red} \begin{bmatrix} \ddot{y}_h(t)  \\\\ \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} = Hexp(D, Q, t) \ast d }\] 
+--> 
+![](Images/02-23-02.png)  
 
 ###  
 
@@ -130,12 +119,10 @@ $$
 
 ## $$訊\quad號\quad響\quad應\quad值【振\quad幅】如\quad下 ：$$  
 
+<!--    
 ## \[{ \color{Red} \begin{bmatrix} \ddot{y}(t) \\\\ \dot{y}(t) \\\\ y(t) \end{bmatrix} = \color{Blue} H_{exp}(D, Q, t) \ast d \color{Green} + \begin{bmatrix} \ddot{y}_p(t) \\\\ \dot{y}_p(t) \\\\  y_p(t) \end{bmatrix} }\]
-
-
-
-
-
+-->  
+![](Images/02-23-03.png)  
 
 ##  
 
@@ -150,9 +137,10 @@ $$
 
 ## $$訊\quad號\quad響\quad應\quad值【振\quad幅】如\quad下 ：$$  
 
+<!--      
 ## \[{ \color{Red} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix} = \color{Blue} H_{exp}(D, Q, t) \ast d \color{Green} + \begin{bmatrix} \dot{y}_p(t) \\\\  y_p(t) \end{bmatrix} }\]
-
-
+-->   
+![](Images/02-23-04.png)  
 
 ##
 
@@ -167,8 +155,10 @@ $$
 
 ## $$訊\quad號\quad響\quad應\quad值【振\quad幅】如\quad下 ：$$  
 
+<!--      
 ## \[{ \color{Red} \begin{bmatrix} y(t) \end{bmatrix} = \color{Blue} H_{exp}(D, Q, t) \ast d \color{Green} + \begin{bmatrix} y_p(t) \end{bmatrix} }\]
-
+-->  
+![](Images/02-23-05.png)  
 
 ##  
 
@@ -180,7 +170,10 @@ $$
 
 ## $$固\quad定\quad訊\quad號\quad響\quad應\quad值\quad如\quad下 ：$$
 
+<!--      
 #### \[{ \color{Red} \begin{bmatrix} y_0 \\\\ y_1 \\\\  \vdots \\\\ y_{m-2}  \\\\ y_{m-1} \end{bmatrix} = K_i \ast f }\]
+-->  
+![](Images/02-23-06.png)  
 
 ##
 
@@ -277,7 +270,7 @@ $$
 
 $$A(t) = 
 \begin{bmatrix} 
--N_i(t) \ast M(t) & -N_i(t) \ast C(t) & -N_i \ast K(t) \\\\ I & O & O \\\\ O & I & O  
+-1.0 \ast N_i(t) \ast M(t) & -1.0 \ast N_i(t) \ast C(t) & -1.0 \ast N_i \ast K(t) \\\\ I & O & O \\\\ O & I & O  
 \end{bmatrix}
 $$
 
