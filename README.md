@@ -82,8 +82,11 @@ y_h(t)
 $$
 
 ###  
+
 <!--   
-## \[{ \color{Fuchsia} \begin{bmatrix} \dot{\ddot{y}}_h(t) \\\\ \ddot{y}_h(t) \\\\ \dot{y}_h(t) \end{bmatrix} = \color{Blue} A \ast \color{Brown} \begin{bmatrix} \ddot{y}_h(t) \\\\ \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} }\]   --> 
+## \[{ \color{Fuchsia} \begin{bmatrix} \dot{\ddot{y}}_h(t) \\\\ \ddot{y}_h(t) \\\\ \dot{y}_h(t) \end{bmatrix} = \color{Blue} A \ast \color{Brown} \begin{bmatrix} \ddot{y}_h(t) \\\\ \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} }\]   
+-->  
+
 ![](Images/02-23-01.png)   
 
 $$ 即 \quad A = 
@@ -103,6 +106,7 @@ $$
 <!--      
 ## \[{ \color{Red} \begin{bmatrix} \ddot{y}_h(t)  \\\\ \dot{y}_h(t) \\\\ y_h(t) \end{bmatrix} = Hexp(D, Q, t) \ast d }\] 
 --> 
+
 ![](Images/02-23-02.png)  
 
 ###  
@@ -122,6 +126,7 @@ $$
 <!--    
 ## \[{ \color{Red} \begin{bmatrix} \ddot{y}(t) \\\\ \dot{y}(t) \\\\ y(t) \end{bmatrix} = \color{Blue} H_{exp}(D, Q, t) \ast d \color{Green} + \begin{bmatrix} \ddot{y}_p(t) \\\\ \dot{y}_p(t) \\\\  y_p(t) \end{bmatrix} }\]
 -->  
+
 ![](Images/02-23-03.png)  
 
 ##  
@@ -140,6 +145,7 @@ $$
 <!--      
 ## \[{ \color{Red} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix} = \color{Blue} H_{exp}(D, Q, t) \ast d \color{Green} + \begin{bmatrix} \dot{y}_p(t) \\\\  y_p(t) \end{bmatrix} }\]
 -->   
+
 ![](Images/02-23-04.png)  
 
 ##
@@ -158,6 +164,7 @@ $$
 <!--      
 ## \[{ \color{Red} \begin{bmatrix} y(t) \end{bmatrix} = \color{Blue} H_{exp}(D, Q, t) \ast d \color{Green} + \begin{bmatrix} y_p(t) \end{bmatrix} }\]
 -->  
+
 ![](Images/02-23-05.png)  
 
 ##  
@@ -173,6 +180,7 @@ $$
 <!--      
 #### \[{ \color{Red} \begin{bmatrix} y_0 \\\\ y_1 \\\\  \vdots \\\\ y_{m-2}  \\\\ y_{m-1} \end{bmatrix} = K_i \ast f }\]
 -->  
+
 ![](Images/02-23-06.png)  
 
 ##
