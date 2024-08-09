@@ -1,6 +1,7 @@
 <!--     範例 App_49 儲存庫      -->
 
-### 
+###  
+
 <!--                 
 # \[{  \color{Fuchsia}精\;銳\; \color{Purple}矩\;陣\;  \color{Red}計\;算\; \color{Green} 求\;解\;器  }\] 
 -->  
@@ -19,35 +20,27 @@
 -->
 ![](Images/11-30-01.png)  
 
-<!--     ##### \[ using \]   -->
-<!--      ![](Images/11-30-07.png)   --> 
-#####  $$using$$     
-
+<!--   #### \[{  \color{Lavender} using }\]  -->  
+![](Images/11-30-07.png)  
 
 <!--   
 ## \[  \color{Red} Precisely \; Numerical \; Value \; Computations  \]  
 -->  
 ![](Images/11-30-02.png) 
 
-  
-<!--     ##### \[ with \]   -->   
-<!--    ![](Images/11-30-08.png)  -->  
-#####  $$with$$   
-
-
+<!--   #### \[{ \color{Lavender}  with }\]  -->  
+![](Images/11-30-08.png)
 
 <!--   
 ## \[{ \color{Green} Real \; \color{Red} And \; \color{magenta} Complex \quad \; \color{Brown} Matrix \;\; Transform  }\] 
 -->
 ![](Images/11-30-03.png)  
-
   
-<!--         ##### \[ Part \; 5 \]    -->   
+<!--         ##### \[ Part \; 5 \]    -->  
 <!--       ![](Images/11-30-09.png)   -->  
-#####    $$part \quad 4$$  
+<!--  #####    $$part \quad 4$$     -->  
 
-
-####
+####  
 
 ---  
 
@@ -75,7 +68,7 @@ $$
 \begin{bmatrix}
 -1.0 \ast N_i(t) \ast M(t) & -1.0 \ast N_i(t) \ast C(t) & -1.0 \ast N_i(t) \ast K(t) \\\\ 
 I                 &    O    &    O     \\\\ 
-O                 &    I    &    O      
+O                 &    I    &    O  
 \end{bmatrix}  \ast 
 \begin{bmatrix} 
 \ddot{y}_h(t)  \\\\ 
